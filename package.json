@@ -1,11 +1,18 @@
 {
-  "name": "curso-typeScript",
+  "name": "curso-typescript",
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/patrick095/curso-typeScript.git",
   "author": "patrick095 <patrick095@gmail.com>",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only tipos/tipos.ts"
+  },
   "license": "MIT",
   "dependencies": {
     "ts-node": "^10.1.0"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.3.5"
   }
 }
