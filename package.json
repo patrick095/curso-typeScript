@@ -1,0 +1,11 @@
+{
+  "name": "curso-typeScript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/patrick095/curso-typeScript.git",
+  "author": "patrick095 <patrick095@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "ts-node": "^10.1.0"
+  }
+}
